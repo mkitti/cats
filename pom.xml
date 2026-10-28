@@ -78,7 +78,7 @@
 		<imagej-cluster.version>1.0.0</imagej-cluster.version>
 		<bigdataprocessor1_.version>0.7.5</bigdataprocessor1_.version>
 		<!-- Temporary: remove once janelia-jhdf5 is released. -->
-		<janelia-jhdf5.version>22.03.01-SNAPSHOT</janelia-jhdf5.version>
+		<janelia-jhdf5.version>26.10.0-SNAPSHOT</janelia-jhdf5.version>
 		<!-- pom-scijava manages older bytedeco versions; match what janelia-jhdf5 is built against. -->
 		<javacpp.version>1.5.15-SNAPSHOT</javacpp.version>
 		<hdf5.version>2.2.0-${javacpp.version}</hdf5.version>
@@ -212,7 +212,7 @@
 			<artifactId>jsch</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>org.scijava</groupId>
+			<groupId>org.janelia</groupId>
 			<artifactId>janelia-jhdf5</artifactId>
 			<!-- Temporary: remove the version once janelia-jhdf5 is released and managed by pom-scijava. -->
 			<version>${janelia-jhdf5.version}</version>
